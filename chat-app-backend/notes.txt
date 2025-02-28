@@ -1,0 +1,15 @@
+//web-socket=>
+=>same like http protocol
+=> when connection established, then it is persistance until client don't close it
+=> if server can get messages from 3rd party , then it is also push/ responsed to client until connection is there
+=> real time 
+=> full duplex communication(2 way)
+=> low level(complex)
+
+//STOMP(Simple test oriented messaging protocol)=>
+=> simple(not complex), used above/with web socket internally
+eg: when a msg related to particular room chat, then it is visible to all people who joined that room
+
+//SOCKJS=>(library of js)
+=>it provides fall-back mechanism
+=> if problem in web socket , it is used

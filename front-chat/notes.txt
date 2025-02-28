@@ -1,0 +1,3 @@
+//connect frontend with backend
+
+//context api for centralized data management i.e global state/level
